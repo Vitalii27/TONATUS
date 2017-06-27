@@ -1,0 +1,19 @@
+// colors
+$orange: #f7600e;
+$grey: #3b434c;
+// layout
+@import "layout/fonts";
+@import "layout/adjusment";
+@import "layout/font-awesome";
+// mixins
+@import "helpers/mixins.scss";
+// sections
+@import "sections/welcome";
+@import "sections/our-services";
+@import "sections/subscribe";
+@import "sections/our-works";
+@import "sections/reviews";
+@import "sections/our-team";
+@import "sections/contacts";
+@import "sections/footer";
+// @import "sections/login";

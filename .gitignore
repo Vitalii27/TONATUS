@@ -1,0 +1,5 @@
+# Folders to ignore
+dist
+
+# Node.JS
+node_modules
