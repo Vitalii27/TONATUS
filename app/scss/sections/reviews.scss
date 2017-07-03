@@ -23,8 +23,8 @@
     text-align: center;
 }
 
-.reviews__prev,
-.reviews__next {
+.swiper-button-prev,
+.swiper-button-next {
     display: block;
     width: 21px;
     height: 40px;
@@ -38,14 +38,13 @@
     }
 }
 
-.reviews__next {
+.swiper-button-next {
     transform: rotate(180deg);
 }
 
-.reviews__block {
-    max-width: 1140px;
-}
-
+// .reviews__block {
+//     max-width: 1140px;
+// }
 .reviews__avatar {
     width: 120px;
     height: 120px;

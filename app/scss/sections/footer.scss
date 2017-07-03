@@ -16,9 +16,20 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+    @include media($valueScreen1) {
+        margin: 0 25px;
+    }
 }
 
 .left__block .rigth__block {
-    color: #fff;
     font-weight: 400;
+}
+
+.right__block_link {
+    color: #fff;
+    transition: color .3s;
+    &:hover {
+        color: $orange;
+        // text-decoration: underline;
+    }
 }

@@ -76,6 +76,14 @@
     margin-top: 25px;
     &:first-child {
         margin-right: 25px;
+        @include media($valueScreen2) {
+            margin-right: 0;
+        }
+    }
+    &:nth-child(2) {
+        @include media($valueScreen2) {
+            margin-bottom: 30px;
+        }
     }
     &:hover {
         background: $orange;
@@ -87,12 +95,16 @@
     margin-bottom: 50px;
     &_link {
         display: inline-block;
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         border: 2px solid #fff;
         border-radius: 50%;
         margin: 0 auto;
         position: relative;
+        transition: all .3s;
+        &:hover {
+            border-color: $orange;
+        }
         &_scroll {
             position: absolute;
             top: 50%;
@@ -101,3 +113,5 @@
         }
     }
 }
+
+.down__arrow_link_scroll:hover {}

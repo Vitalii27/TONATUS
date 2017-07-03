@@ -22,20 +22,23 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 
 // Пути к нашим модулям яваскрипт
 let moduleJs = [
-    'app/js/first.js',
-    'app/js/second.js',
-    'app/js/third.js',
+
+    'app/js/anchor.js',
+    'app/js/slider.js',
+    'app/js/hireUs-popup.js',
     'app/js/main.js'
 ];
 // Пути к нашим внешним плагинам и библиотекам яваскрипт
 let vendorJs = [
         'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/owl.carousel/dist/owl.carousel.min.js'
+        'node_modules/swiper/dist/js/swiper.jquery.min.js',
+        'node_modules/magnific-popup/dist/jquery.magnific-popup.min.js'
     ]
     //Пути к нашим внешним плагинам и библиотекам стили
 let vendorCss = [
         'node_modules/normalize-css/normalize.css',
-        'node_modules/owl.carousel/dist/assets/owl.carousel.css'
+        'node_modules/swiper/dist/css/swiper.min.css',
+        'node_modules/magnific-popup/dist/magnific-popup.css'
     ]
     // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images', ...
     // 'buildJs', 'vendor-js'] Сервер наблюдает за папкой "./dist". Здесь же
